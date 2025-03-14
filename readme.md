@@ -88,30 +88,34 @@ The frontend will run on http://localhost:5173.
 
 ### Authentication Routes
 
-:::register:::
+:::REGISTER:::
 
 >> POST:  http://localhost:5000/api/auth/register
 
 {
+
     "name": "Admin User",
     "email": "admin@gmail.com",
     "password": "123456"
+    
 }
 
 
-:::login::: [copy token without ""]
+:::LOGIN::: [copy token without ""]
 
 
 >> POST:  http://localhost:5000/api/auth/login
 
 {
+
     "email": "admin@gmail.com",
-    "password": "123456"                                   
+    "password": "123456" 
+    
 }
 
 
 
-:::Create Order [use token]:::
+:::CREATE ORDER [use Token]:::
 
 POST: http://localhost:5000/api/orders
 
@@ -120,32 +124,37 @@ POST: http://localhost:5000/api/orders
 **Body**:
 
 {
+
     "website": "test.com",
     "title": "SEO Package",
     "price": 400
+    
 }
 
 
-:::GET Order::: 
+:::GET ORDER::: 
 
 >> GET:  http://localhost:5000/api/orders
 
 **Header**: Authorization : Bearer ___Same Token___  selected.
 
 
-:::SEO Tool Check:::
+:::SEO TOOL CHECK:::
 
 >> POST: http://localhost:5000/api/seotools
 
 **HEADER **: Authorization : Bearer ___Same Token___
 
 **BODY **:
+
 {
+
   "domain": "test.com",
   "keywords": ["SEO", "optimization", "ranking"],
   "backlinks": 50,
   "rank": 1,
   "status": "active"
+  
 }
 
 
@@ -161,9 +170,11 @@ POST: http://localhost:5000/api/orders
 **BODY**:
 
 {
+
     "orderId": "67d46478041b1cd347e88ded",
     "amount": 299,
     "paymentMethod": "paypal"
+    
 }
 
 
