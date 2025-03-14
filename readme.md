@@ -53,10 +53,14 @@ The goal of this project is to integrate backend for **Link Publisher** that all
 
 **Create a .env file in the root of the backend folder and add the following:**
 
-MONGO_URL=mongodb+srv://your_username:your_password@your_cluster.mongodb.net/your_database
+MONGO_URL=your_database_url
+
 PORT=5000
+
 JWT_SECRET=your_jwt_secret_key
+
 STRIPE_SECRET=your_stripe_secret_key
+
 FRONTEND_URL=http://localhost:5173
 
 ### Running the Project
