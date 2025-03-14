@@ -86,7 +86,6 @@ The frontend will run on http://localhost:5173.
 
 :::register:::
 
-
 >> POST:  http://localhost:5000/api/auth/register
 
 {
@@ -94,6 +93,7 @@ The frontend will run on http://localhost:5173.
     "email": "admin@gmail.com",
     "password": "123456"
 }
+
 
 
 :::login::: [copy token without ""]
@@ -108,8 +108,8 @@ The frontend will run on http://localhost:5173.
 }
 
 
-:::Create Order[use JWT]:::
 
+:::Create Order[use JWT]:::
 
 POST: http://localhost:5000/api/orders
 
@@ -131,8 +131,8 @@ POST: http://localhost:5000/api/orders
 **Header**: Authorization : Bearer ___Same Token___  with  remove body
 
 
-:::SEO Tool Check:::
 
+:::SEO Tool Check:::
 
 >> POST: http://localhost:5000/api/seotools
 
@@ -153,11 +153,9 @@ POST: http://localhost:5000/api/orders
 **HEADER**: Authorization : Bearer ___Same Token___ 
 
 
-
 ### Payment Routes
 
 >> POST /api/payments/checkout
-
 
 **Body :**
 
@@ -170,9 +168,9 @@ POST: http://localhost:5000/api/orders
 
 ### Deployment
 
-  Deployed with Render.
+  Deployed with **Render**.
 
-For any queries or feedback, feel free to reach out to me at [click](raghabendradash779@gmail.com).
+**_For any queries or feedback, feel free to reach out to me at [click](raghabendradash779@gmail.com)._**
 
 
 
