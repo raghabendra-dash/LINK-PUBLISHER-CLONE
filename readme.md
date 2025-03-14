@@ -99,12 +99,10 @@ The frontend will run on http://localhost:5173.
 }
 
 
-
 :::login::: [copy token without ""]
 
 
 >> POST:  http://localhost:5000/api/auth/login
-
 
 {
     "email": "admin@gmail.com",
@@ -113,7 +111,7 @@ The frontend will run on http://localhost:5173.
 
 
 
-:::Create Order[use JWT]:::
+:::Create Order [use token]:::
 
 POST: http://localhost:5000/api/orders
 
@@ -128,12 +126,11 @@ POST: http://localhost:5000/api/orders
 }
 
 
-:::GET Order[use JWT]::: 
+:::GET Order::: 
 
 >> GET:  http://localhost:5000/api/orders
 
-**Header**: Authorization : Bearer ___Same Token___  with  remove body
-
+**Header**: Authorization : Bearer ___Same Token___  selected.
 
 
 :::SEO Tool Check:::
@@ -159,15 +156,18 @@ POST: http://localhost:5000/api/orders
 
 ### Payment Routes
 
->> POST /api/payments/checkout
+>> POST: api/payments  [copy paste orderID]
 
-**Body :**
+**BODY**:
 
 {
-  "amount": 299,
-  "currency": "INR",
-  "paymentMethod": "stripe"
+    "orderId": "67d46478041b1cd347e88ded",
+    "amount": 299,
+    "paymentMethod": "paypal"
 }
+
+
+>> GET: api/payments 
 
 
 ### Deployment
