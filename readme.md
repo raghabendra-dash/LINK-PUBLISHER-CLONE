@@ -5,11 +5,11 @@
 **Link Publisher** is a full-stack web application designed to streamline the process of purchasing and managing website related services. The platform connects users with a marketplace where they can browse available websites, place orders, and process payments. It includes robust authentication and real-time features.
 
 
-> **Live Demo :**
+> **Live Demo :** [CLICK HERE](https://link-publisher-clone-frontend.onrender.com)
 
 > **Video Demo :**
 
-> **Backend Demo :** https://link-publisher-clone-backend-wai7.onrender.com
+> **Backend Demo :** [CLICK](https://link-publisher-clone-backend-wai7.onrender.com)
 
 The goal of this project is to integrate backend for **Link Publisher** that allows users to:
 
@@ -170,7 +170,7 @@ POST: http://localhost:5000/api/orders
 
 ### Deployment
 
-    Deployed Backend with Render and Frontend with Vercel.
+  Deployed with Render.
 
 For any queries or feedback, feel free to reach out to me at [click](raghabendradash779@gmail.com).
 
