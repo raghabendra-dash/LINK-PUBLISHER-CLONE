@@ -44,9 +44,9 @@ The goal of this project is to integrate backend for **Link Publisher** that all
 
 - Mongoose
 
-- **JWT**for secure authentication.
+- **JWT** for secure authentication.
 
-- **Stripe**for payment gateway integration.
+- **Stripe** for payment gateway integration.
 
 
 ### Environment Variables
