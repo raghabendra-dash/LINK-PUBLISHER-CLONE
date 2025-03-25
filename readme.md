@@ -7,9 +7,8 @@
 
 > **Live Demo :** [CLICK ](https://link-publisher-clone-frontend.onrender.com)
 
-> **Video Demo :**
 
-> **Backend Demo :** [CLICK ](https://link-publisher-clone-backend-wai7.onrender.com)
+> **Backend :** [CLICK ](https://link-publisher-clone-backend-wai7.onrender.com)
 
 The goal of this project is to integrate backend for **Link Publisher** that allows users to:
 
